@@ -1,0 +1,19 @@
+.welcomePanel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  color: var(--color-text-main);
+  background-color: var(--color-white);
+}
+
+.welcomePanel h2 {
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+}
+
+.welcomePanel p {
+  font-size: 1rem;
+  color: var(--color-text-light);
+}

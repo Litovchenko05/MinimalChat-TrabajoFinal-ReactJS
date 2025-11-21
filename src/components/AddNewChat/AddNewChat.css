@@ -1,0 +1,28 @@
+.addChatForm {
+  padding: 12px;
+  border-top: 1px solid var(--color-border);
+  background-color: var(--color-bg-panel);
+}
+
+.addChatForm input {
+  width: 100%;
+  margin-top: 6px;
+  padding: 8px;
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  background-color: var(--color-white);
+}
+
+.addChatForm button {
+  margin-top: 8px;
+  padding: 8px 10px;
+  background-color: var(--color-accent);
+  color: var(--color-white);
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.addChatForm button:hover {
+  background-color: var(--color-accent-light);
+}

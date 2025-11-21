@@ -1,0 +1,70 @@
+.chatBar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  background: #fff;
+}
+
+.chatBar__chat--avatar {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.chatBar__chat--name {
+  margin: 0;
+}
+
+
+.chatBar__backBtn {
+  background: transparent;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: var(--text-main);
+  padding: 6px;
+  border-radius: 6px;
+  transition: background 0.2s;
+}
+
+.chatBar__backBtn:hover {
+  background-color: var(--hover-light);
+}
+
+.chatBar__backIcon {
+  width: 20px;
+  height: 20px;
+  stroke: var(--color-text);
+}
+
+.chatBar__status {
+  display: inline-flex;   
+  align-items: center;    
+  gap: 6px;             
+  color: var(--color-text-soft);
+  font-size: 0.85rem;
+  position: relative; 
+}
+
+
+.chatBar__status::before {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0; 
+}
+
+
+.chatBar__status.online::before {
+  background-color: #2ecc71;
+}
+
+
+.chatBar__status.offline::before {
+  background-color: #e57373;
+}
