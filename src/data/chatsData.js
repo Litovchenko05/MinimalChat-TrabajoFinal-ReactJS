@@ -9,7 +9,7 @@ const INITIAL_CHATS = [
     lastSeen: "1 min ago",
     messages: [
       { id: 1, text: "Hey! How's it going?", sender: 'app', timestamp: '10:00 AM Today' },
-      { id: 2, text: "We don't talk since you start that React course", sender: 'user', timestamp: '10:02 AM Today' }
+      { id: 2, text: "We don't talk since you start that React course", sender: 'app', timestamp: '10:02 AM Today' }
     ]
   },
   {
